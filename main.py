@@ -50,3 +50,4 @@ def dashboard(request: Request):
         <p>Customer ID: {customer_id}</p>
         <p>App Proxy verified and locked.</p>
     """)
+
