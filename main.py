@@ -14,6 +14,7 @@ def health():
 @app.get("/proxy/dashboard")
 def dashboard():
     return HTMLResponse("""
+    if not customer_id:
         <h1>EBC Earn Per Run</h1>
         <p>Customer ID: {customer_id}</p>
         <p>App Proxy verified and locked.</p>
